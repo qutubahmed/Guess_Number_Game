@@ -72,7 +72,7 @@ function againButtonHandler(){
     // message.innerHTML = 'start guessing...';
     // inputValue.value = '';
     // body.style.backgroundColor = 'black'
-    window.location.reload()
+    location.reload()
     
 
 }
