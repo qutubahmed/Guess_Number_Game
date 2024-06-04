@@ -13,26 +13,26 @@
 
 <body>
     <div id="first-section">
-        <button class="again-button">Again</button>
+        <button class="again-button" onclick="againButtonHandler()">Again</button>
         <h4 class="h4">Between 1 and 20</h4>
     </div>
     <h1>Guess My Number</h1>
 
     <div class="line"></div>
-    <div class="question-mark">
-        <img src="Black_question_mark.png" alt="">
+    <div class="questionMark">
+        <img src="Black_question_mark.png" alt="" class="image">
     </div>
     </div>
 
     <div id="second-section">
         <div class="left">
             <input type="number" class="input">
-            <button class="check">check</button>
+            <button class="check" onclick="checkHandler()">check</button>
         </div>
         <div class="right">
-            <p>Start Guessing...</p>
-            <p>Score: <span>20</span></p>
-            <p>High Score: <span>0</span></p>
+            <p class="message">Start Guessing...</p>
+            <p>Score: <span class="score">20</span></p>
+            <p>High Score: <span class="highScore">0</span></p>
         </div>
 
     </div>
