@@ -118,8 +118,9 @@ p{
     .input {
        width : 150px;
     }
-    p{
+    .right{
         font-size : 10px;
+        padding: 50px;
     }
 
 }
